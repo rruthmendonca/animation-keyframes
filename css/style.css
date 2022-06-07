@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(235, 232, 255);
+}
+
+.tudo{
+flex-direction: row;
+display: flex;
+width: 100%;
+height: 120px;
+}
+
+#anima-div{
+    background: url("../imgs/fofa.png") -0px  -1075px ;
+    height:120px;
+    width:120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+#anima-div2{
+    background: url("../imgs/coelha.png") -0px -2880px;
+    height:120px;
+    width:120px;
+    animation: anima-sprite2 1s steps(25) infinite;
+}
+
+#anima-div3{
+    background: url("../imgs/gatinho.png") -0px -374px ;
+    height:120px;
+    width:120px;
+    animation: anima-sprite3 1s steps(9) infinite;
+}
+
+
+#anima-div4{
+    background: url("../imgs/fofo.png") -0px  -7px;
+    height:120px;
+    width:120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+#anima-div5{
+    background: url("../imgs/fofo2.png") -0px  -8px;
+    height:120px;
+    width:120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+#anima-div6{
+    background: url("../imgs/fofo3.png") -0px  -132px;
+    height:120px;
+    width:120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+#anima-div7{
+    background: url("../imgs/hello.png") -0px  -6px;
+    height:120px;
+    width:120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+#anima-div8{
+    background: url("../imgs/fofo4.png") -0px  -11px;
+    height:120px;
+    width:120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+#anima-div9{
+    background: url("../imgs/fofo5.png") -0px  -6px;
+    height:120px;
+    width:120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+#anima-div10{
+    background: url("../imgs/fofo6.png") -0px  -147px;
+    height:120px;
+    width:120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+
+
+
+
+@keyframes anima-sprite{
+    100% {background-position-x: -1200px;}
+}
+
+@keyframes anima-sprite2{
+    100% {background-position-x: -3000px;}
+}
+
+@keyframes anima-sprite3{
+    100% {background-position-x: -1080px;}
+}
+
+
+
+
+/* @keyframes anima-sprite{
+    from {background-position: 0px;}
+    to {background-position: -1920px;}
+} */
